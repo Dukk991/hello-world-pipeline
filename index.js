@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send("Hello World from Pipeline");
 });
 
+app.get('/', (req, res) => {
+  res.send("Update_1");
+});
+
 app.listen(port, () => {
   console.log("Running");
 });
